@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "start": "deno run --allow-all ./index.ts"
+  },
+  "nodeModulesDir": "auto",
+  "imports": {
+    "nws": "npm:nws@^1.1.1"
+  }
+}
