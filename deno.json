@@ -2,6 +2,9 @@
   "tasks": {
     "start": "deno run --allow-all ./index.ts"
   },
+  "unstable": [
+    "broadcast-channel"
+  ],
   "nodeModulesDir": "auto",
   "imports": {
     "nws": "npm:nws@^1.1.1"
